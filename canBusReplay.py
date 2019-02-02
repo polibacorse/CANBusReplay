@@ -27,7 +27,7 @@ def main(realtime):
 
     for event in log:
         client.publish(topic, event)
-        # Wait to evitate packet confusion
+        # Wait to avoid packet confusion
         time.sleep(.00001)
 
 
