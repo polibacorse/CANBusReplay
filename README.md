@@ -9,7 +9,7 @@ Install required dependencies located in "requirements.txt" to run simulator
 ### Run!
 To start simulation use:
 ```
-python canBusReplay.py --log=candump.log
+python3.7 canBusReplay.py --log=candump.log
 ```
 Where candump.log is your dump file
 
@@ -18,5 +18,5 @@ Where candump.log is your dump file
 ##### Realtime mode
 To start simulation in realtime mode use:
 ```
-python canBusReplay.py --log=candump.log --realtime
+python3.7 canBusReplay.py --log=candump.log --realtime
 ```
